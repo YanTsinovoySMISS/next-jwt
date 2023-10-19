@@ -69,7 +69,6 @@ export default function SignUn({ setSignInMode }: SignUpProps) {
         form.setValue("name", "");
         toast({
           title: "Account created successfully",
-          variant: "success",
         });
         setSignInMode(true);
       }
@@ -129,7 +128,11 @@ export default function SignUn({ setSignInMode }: SignUpProps) {
                     <FormItem className="grid gap-2">
                       <FormLabel>Password</FormLabel>
                       <FormControl>
-                        <Input type='password' placeholder="Enter password..." {...field} />
+                        <Input
+                          type="password"
+                          placeholder="Enter password..."
+                          {...field}
+                        />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
