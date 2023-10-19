@@ -10,6 +10,10 @@ This project demonstrates a secure user authentication system using JSON Web Tok
 
 ![Screenshots](./assets/img/screenshot_2.png "Screenshots 2")
 
+## Demo
+
+[The demo deployed on Versel.](https://next-jwt-nine.vercel.app/)
+
 ## 🚀 Getting Started
 
 First, run the development server:
